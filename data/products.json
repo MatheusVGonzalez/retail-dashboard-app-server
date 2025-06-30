@@ -3,66 +3,77 @@
     "nome": "Quoted Tech Clarity Gaming Custom PC",
     "preco": 1349.99,
     "imagem": "/assets/gamer1.webp",
-    "descricao": "Custom-built with AMD Ryzen 7 7800X3D or Ryzen 9 9950X3D CPUs, up to NVIDIA RTX 5090 GPU, high-performance liquid cooling, DDR5 RAM and PCIe 4/5 NVMe storage in a full-tower chassis; 3‑year warranty. "
+    "descricao": "Custom-built with AMD Ryzen 7 7800X3D or Ryzen 9 9950X3D CPUs, up to NVIDIA RTX 5090 GPU, high-performance liquid cooling, DDR5 RAM and PCIe 4/5 NVMe storage in a full-tower chassis; 3‑year warranty.",
+    "quantidade": 7
   },
   {
     "nome": "ViprTech Reaper 3.0 Liquid-Cooled PC",
     "preco": 2200.00,
     "imagem": "/assets/vipr.webp",
-    "descricao": "AMD Ryzen 7 7700 (8‑core/16‑thread, up to 5.3 GHz) with 240 mm RGB liquid cooler, NVIDIA RTX 4070 Super 12 GB, 32 GB DDR5‑6400 MHz RAM, 2 TB NVMe SSD, Windows 11 Pro."
+    "descricao": "AMD Ryzen 7 7700 (8‑core/16‑thread, up to 5.3 GHz) with 240 mm RGB liquid cooler, NVIDIA RTX 4070 Super 12 GB, 32 GB DDR5‑6400 MHz RAM, 2 TB NVMe SSD, Windows 11 Pro.",
+    "quantidade": 5
   },
   {
     "nome": "ASUS ROG G700 Gaming PC",
     "preco": 2700.99,
     "imagem": "/assets/asusrog.webp",
-    "descricao": "Full‑tower gaming rig with Intel Core Ultra 9 CPU, NVIDIA RTX 5090 GPU, up to 64 GB DDR5‑4800 RAM, 2 TB PCIe 4.0 NVMe SSD (PCIe 5 upgradable), Windows 11 Pro. "
+    "descricao": "Full‑tower gaming rig with Intel Core Ultra 9 CPU, NVIDIA RTX 5090 GPU, up to 64 GB DDR5‑4800 RAM, 2 TB PCIe 4.0 NVMe SSD (PCIe 5 upgradable), Windows 11 Pro.",
+    "quantidade": 10
   },
   {
     "nome": "UNIWAY Gaming PC Desktop",
     "preco": 1649.99,
     "imagem": "/assets/gamer2.webp",
-    "descricao": "Desktop featuring Intel Core i7‑14700KF (20 cores), NVIDIA RTX 4070 series, 32 GB DDR5‑6000 RAM, 1 TB NVMe SSD and 360 mm AIO cooler, Wi‑Fi 6, Windows 11 Pro. :"
+    "descricao": "Desktop featuring Intel Core i7‑14700KF (20 cores), NVIDIA RTX 4070 series, 32 GB DDR5‑6000 RAM, 1 TB NVMe SSD and 360 mm AIO cooler, Wi‑Fi 6, Windows 11 Pro.",
+    "quantidade": 8
   },
   {
     "nome": "ASUS ROG G700 Gaming PC",
     "preco": 5999.99,
     "imagem": "/assets/rog.webp",
-    "descricao": "Premium variant of ROG G700: Intel Core Ultra 9 285K (3.2–5.7 GHz), 32 GB DDR5‑6000, 1 TB PCIe Gen 4 SSD, NVIDIA RTX 5090 32 GB GDDR7, Windows 11, Wi‑Fi 6, full RGB setup. :"
+    "descricao": "Premium variant of ROG G700: Intel Core Ultra 9 285K (3.2–5.7 GHz), 32 GB DDR5‑6000, 1 TB PCIe Gen 4 SSD, NVIDIA RTX 5090 32 GB GDDR7, Windows 11, Wi‑Fi 6, full RGB setup.",
+    "quantidade": 3
   },
   {
     "nome": "Apple iMac 27\"",
     "preco": 1299.99,
     "imagem": "/assets/imac.webp",
-    "descricao": "27‑inch Intel iMac (pre‑2022): options include 3.2–3.3 GHz CPUs, up to 2 TB Fusion Drive or SSD, 802.11ac Wi‑Fi and Bluetooth 4.0; discontinued model. :"
+    "descricao": "27‑inch Intel iMac (pre‑2022): options include 3.2–3.3 GHz CPUs, up to 2 TB Fusion Drive or SSD, 802.11ac Wi‑Fi and Bluetooth 4.0; discontinued model.",
+    "quantidade": 12
   },
   {
     "nome": "Apple MacBook Pro 16-inch",
     "preco": 1000.00,
     "imagem": "/assets/mac.webp",
-    "descricao": "16‑inch MacBook Pro with Apple M4 Pro: 14‑core CPU (10 performance + 4 efficiency), 20‑core GPU, 16‑core Neural Engine, hardware ray‑tracing, high memory bandwidth; configurable up to M4 Max. :"
+    "descricao": "16‑inch MacBook Pro with Apple M4 Pro: 14‑core CPU (10 performance + 4 efficiency), 20‑core GPU, 16‑core Neural Engine, hardware ray‑tracing, high memory bandwidth; configurable up to M4 Max.",
+    "quantidade": 9
   },
   {
     "nome": "Lenovo Yoya Slim 7x14.5\" OLED Copilot",
     "preco": 1299.95,
     "imagem": "/assets/lenovo.webp",
-    "descricao": "Lenovo Yoga Slim 7x Copilot+ 14.5″ 3K OLED (90 Hz) touchscreen, Snapdragon X Elite ARM CPU, 16 GB RAM, 512 GB SSD, Wi‑Fi 7, ~10‑hour battery life. :"
+    "descricao": "Lenovo Yoga Slim 7x Copilot+ 14.5″ 3K OLED (90 Hz) touchscreen, Snapdragon X Elite ARM CPU, 16 GB RAM, 512 GB SSD, Wi‑Fi 7, ~10‑hour battery life.",
+    "quantidade": 6
   },
   {
     "nome": "Asus TUF Gaming F15 144hz",
     "preco": 1349.99,
     "imagem": "/assets/asus.webp",
-    "descricao": "15.6″ FHD 144 Hz gaming laptop; Intel Core i5‑12500H or i7‑12700H, NVIDIA GTX 1650/1660 Ti or RTX 4050/4070 GPUs, up to 32 GB RAM. "
+    "descricao": "15.6″ FHD 144 Hz gaming laptop; Intel Core i5‑12500H or i7‑12700H, NVIDIA GTX 1650/1660 Ti or RTX 4050/4070 GPUs, up to 32 GB RAM.",
+    "quantidade": 11
   },
   {
     "nome": "HP Omnibook 5 Flip 14",
     "preco": 899.99,
     "imagem": "/assets/hp.webp",
-    "descricao": "HP Omnibook 5 Flip 14″ convertible with Snapdragon X-series CPU, OLED 2K display, up to 34 hr battery, Microsoft Copilot+ AI features.}"
+    "descricao": "HP Omnibook 5 Flip 14″ convertible with Snapdragon X-series CPU, OLED 2K display, up to 34 hr battery, Microsoft Copilot+ AI features.",
+    "quantidade": 4
   },
   {
     "nome": "HP 14\" x360 Chromebook Plus",
     "preco": 499.00,
     "imagem": "/assets/chromebook.webp",
-    "descricao": "Lenovo/HP‑style Chromebook Plus with Gemini AI features: MediaTek-based, OLED 14″, up to 16 GB RAM, Gemini AI on-device, image‑text search, 2 TB cloud storage subscription.}"
+    "descricao": "Lenovo/HP‑style Chromebook Plus with Gemini AI features: MediaTek-based, OLED 14″, up to 16 GB RAM, Gemini AI on-device, image‑text search, 2 TB cloud storage subscription.",
+    "quantidade": 14
   }
 ]
