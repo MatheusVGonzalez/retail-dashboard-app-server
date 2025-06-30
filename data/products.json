@@ -4,11 +4,11 @@
     "preco": 1349.99,
     "imagem": "/assets/gamer1.webp",
     "descricao": "Custom-built with AMD Ryzen 7 7800X3D or Ryzen 9 9950X3D CPUs, up to NVIDIA RTX 5090 GPU, high-performance liquid cooling, DDR5 RAM and PCIe 4/5 NVMe storage in a full-tower chassis; 3‑year warranty.",
-    "quantidade": 7
+    "quantidade": 3
   },
   {
     "nome": "ViprTech Reaper 3.0 Liquid-Cooled PC",
-    "preco": 2200.00,
+    "preco": 2200,
     "imagem": "/assets/vipr.webp",
     "descricao": "AMD Ryzen 7 7700 (8‑core/16‑thread, up to 5.3 GHz) with 240 mm RGB liquid cooler, NVIDIA RTX 4070 Super 12 GB, 32 GB DDR5‑6400 MHz RAM, 2 TB NVMe SSD, Windows 11 Pro.",
     "quantidade": 5
@@ -43,7 +43,7 @@
   },
   {
     "nome": "Apple MacBook Pro 16-inch",
-    "preco": 1000.00,
+    "preco": 1000,
     "imagem": "/assets/mac.webp",
     "descricao": "16‑inch MacBook Pro with Apple M4 Pro: 14‑core CPU (10 performance + 4 efficiency), 20‑core GPU, 16‑core Neural Engine, hardware ray‑tracing, high memory bandwidth; configurable up to M4 Max.",
     "quantidade": 9
@@ -71,7 +71,7 @@
   },
   {
     "nome": "HP 14\" x360 Chromebook Plus",
-    "preco": 499.00,
+    "preco": 499,
     "imagem": "/assets/chromebook.webp",
     "descricao": "Lenovo/HP‑style Chromebook Plus with Gemini AI features: MediaTek-based, OLED 14″, up to 16 GB RAM, Gemini AI on-device, image‑text search, 2 TB cloud storage subscription.",
     "quantidade": 14

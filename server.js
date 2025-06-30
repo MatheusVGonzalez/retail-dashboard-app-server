@@ -24,10 +24,9 @@ app.get('/products', (req, res) => {
 });
 
 app.post('/comprar', (req, res) => {
-  const { productId, quantidadeComprada } = req.body;
-
+  const { nomeProduto, quantidadeComprada } = req.body;
   const products = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-  const produto = products.find(p => p.id === productId);
+const produto = products.find(p => p.nome === nomeProduto);
   if (!produto) {
     return res.json({ success: false, error: 'Produto não encontrado.' });
   }
