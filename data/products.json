@@ -5,7 +5,7 @@
     "preco": 1349.99,
     "imagem": "/assets/gamer1.webp",
     "descricao": "Custom-built with AMD Ryzen 7 7800X3D or Ryzen 9 9950X3D CPUs, up to NVIDIA RTX 5090 GPU, high-performance liquid cooling, DDR5 RAM and PCIe 4/5 NVMe storage in a full-tower chassis; 3‑year warranty.",
-    "quantidade": 3
+    "quantidade": 4
   },
   {
     "id": 1,
@@ -13,7 +13,7 @@
     "preco": 2200,
     "imagem": "/assets/vipr.webp",
     "descricao": "AMD Ryzen 7 7700 (8‑core/16‑thread, up to 5.3 GHz) with 240 mm RGB liquid cooler, NVIDIA RTX 4070 Super 12 GB, 32 GB DDR5‑6400 MHz RAM, 2 TB NVMe SSD, Windows 11 Pro.",
-    "quantidade": 5
+    "quantidade": 3
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "preco": 2700.99,
     "imagem": "/assets/asusrog.webp",
     "descricao": "Full‑tower gaming rig with Intel Core Ultra 9 CPU, NVIDIA RTX 5090 GPU, up to 64 GB DDR5‑4800 RAM, 2 TB PCIe 4.0 NVMe SSD (PCIe 5 upgradable), Windows 11 Pro.",
-    "quantidade": 10
+    "quantidade": 9
   },
   {
     "id": 3,

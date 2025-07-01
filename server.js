@@ -37,7 +37,7 @@ app.post('/comprar', (req, res) => {
   const produto = products.find(p => p.id === id); 
 
   console.log("idProduto recebido:", idProduto, " (convertido:", id, ")");
-  console.log("Lista de produtos disponíveis:", products.map(p => ({ id: p.id, nome: p.nome })));
+  console.log("Product List:", products.map(p => ({ id: p.id, nome: p.nome })));
 
   if (!produto) {
     return res.json({ success: false, error: 'Produto não encontrado.' });
@@ -70,7 +70,6 @@ app.post('/reviews', (req, res) => {
   res.json({ success: true });
 });
 
-// Iniciar servidor
 app.listen(3000, () => {
   console.log('Servidor rodando em http://localhost:3000');
 });
