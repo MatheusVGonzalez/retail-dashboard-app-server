@@ -23,6 +23,11 @@ app.get('/products', (req, res) => {
   res.json(products);
 });
 
+app.put('/products', (req, res) => {
+  const products = req.body;
+  fs.writeFileSync(filePath, JSON.stringify(products, null, 2));
+  res.json({ success: true });
+});
 
 app.post('/comprar', (req, res) => {
   const { idProduto, quantidadeComprada } = req.body;
