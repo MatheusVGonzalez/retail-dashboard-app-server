@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "nome": "Quoted Tech Clarity Gaming Custom PC",
     "preco": 1349.99,
     "imagem": "/assets/gamer1.webp",
@@ -7,6 +8,7 @@
     "quantidade": 3
   },
   {
+    "id": 1,
     "nome": "ViprTech Reaper 3.0 Liquid-Cooled PC",
     "preco": 2200,
     "imagem": "/assets/vipr.webp",
@@ -14,6 +16,7 @@
     "quantidade": 5
   },
   {
+    "id": 2,
     "nome": "ASUS ROG G700 Gaming PC",
     "preco": 2700.99,
     "imagem": "/assets/asusrog.webp",
@@ -21,6 +24,7 @@
     "quantidade": 10
   },
   {
+    "id": 3,
     "nome": "UNIWAY Gaming PC Desktop",
     "preco": 1649.99,
     "imagem": "/assets/gamer2.webp",
@@ -28,13 +32,7 @@
     "quantidade": 8
   },
   {
-    "nome": "ASUS ROG G700 Gaming PC",
-    "preco": 5999.99,
-    "imagem": "/assets/rog.webp",
-    "descricao": "Premium variant of ROG G700: Intel Core Ultra 9 285K (3.2–5.7 GHz), 32 GB DDR5‑6000, 1 TB PCIe Gen 4 SSD, NVIDIA RTX 5090 32 GB GDDR7, Windows 11, Wi‑Fi 6, full RGB setup.",
-    "quantidade": 3
-  },
-  {
+    "id": 4,
     "nome": "Apple iMac 27\"",
     "preco": 1299.99,
     "imagem": "/assets/imac.webp",
@@ -42,13 +40,15 @@
     "quantidade": 12
   },
   {
+    "id": 5,
     "nome": "Apple MacBook Pro 16-inch",
     "preco": 1000,
     "imagem": "/assets/mac.webp",
     "descricao": "16‑inch MacBook Pro with Apple M4 Pro: 14‑core CPU (10 performance + 4 efficiency), 20‑core GPU, 16‑core Neural Engine, hardware ray‑tracing, high memory bandwidth; configurable up to M4 Max.",
-    "quantidade": 9
+    "quantidade": 7
   },
   {
+    "id": 6,
     "nome": "Lenovo Yoya Slim 7x14.5\" OLED Copilot",
     "preco": 1299.95,
     "imagem": "/assets/lenovo.webp",
@@ -56,6 +56,7 @@
     "quantidade": 6
   },
   {
+    "id": 7,
     "nome": "Asus TUF Gaming F15 144hz",
     "preco": 1349.99,
     "imagem": "/assets/asus.webp",
@@ -63,6 +64,7 @@
     "quantidade": 11
   },
   {
+    "id": 8,
     "nome": "HP Omnibook 5 Flip 14",
     "preco": 899.99,
     "imagem": "/assets/hp.webp",
@@ -70,6 +72,7 @@
     "quantidade": 4
   },
   {
+    "id": 9,
     "nome": "HP 14\" x360 Chromebook Plus",
     "preco": 499,
     "imagem": "/assets/chromebook.webp",

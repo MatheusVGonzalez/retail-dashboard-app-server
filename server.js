@@ -23,10 +23,17 @@ app.get('/products', (req, res) => {
   res.json(products);
 });
 
+
 app.post('/comprar', (req, res) => {
-  const { nomeProduto, quantidadeComprada } = req.body;
+  const { idProduto, quantidadeComprada } = req.body;
   const products = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-const produto = products.find(p => p.nome === nomeProduto);
+
+  const id = Number(idProduto);
+  const produto = products.find(p => p.id === id); 
+
+  console.log("idProduto recebido:", idProduto, " (convertido:", id, ")");
+  console.log("Lista de produtos disponíveis:", products.map(p => ({ id: p.id, nome: p.nome })));
+
   if (!produto) {
     return res.json({ success: false, error: 'Produto não encontrado.' });
   }
@@ -36,8 +43,25 @@ const produto = products.find(p => p.nome === nomeProduto);
   }
 
   produto.quantidade -= quantidadeComprada;
-
   fs.writeFileSync(filePath, JSON.stringify(products, null, 2));
+  res.json({ success: true });
+});
+
+// Rotas de avaliações
+const reviewsPath = path.join(__dirname, 'data', 'reviews.json');
+
+app.get('/reviews/:productId', (req, res) => {
+  const allReviews = JSON.parse(fs.readFileSync(reviewsPath, 'utf8'));
+  const productId = Number(req.params.productId);
+  const reviews = allReviews.filter(r => r.productId === productId);
+  res.json(reviews);
+});
+
+app.post('/reviews', (req, res) => {
+  const { productId, stars, comment } = req.body;
+  const allReviews = JSON.parse(fs.readFileSync(reviewsPath, 'utf8'));
+  allReviews.push({ productId, stars, comment });
+  fs.writeFileSync(reviewsPath, JSON.stringify(allReviews, null, 2));
   res.json({ success: true });
 });
 
