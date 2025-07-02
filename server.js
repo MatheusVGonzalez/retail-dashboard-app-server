@@ -7,14 +7,12 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Servir arquivos estáticos da pasta 'public'
+
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Conectar rotas de autenticação
-const authRoutes = require('./routes/auth'); // <--- ajuste o caminho se necessário
+const authRoutes = require('./routes/auth'); 
 app.use('/auth', authRoutes);
 
-// Rota de produtos
 const filePath = path.join(__dirname, 'data', 'products.json');
 
 app.get('/products', (req, res) => {
@@ -52,7 +50,6 @@ app.post('/comprar', (req, res) => {
   res.json({ success: true });
 });
 
-// Rotas de avaliações
 const reviewsPath = path.join(__dirname, 'data', 'reviews.json');
 
 app.get('/reviews/:productId', (req, res) => {

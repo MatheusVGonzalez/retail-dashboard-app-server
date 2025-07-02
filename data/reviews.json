@@ -18,5 +18,10 @@
     "productId": 9,
     "stars": 3,
     "comment": "I liked"
+  },
+  {
+    "productId": 0,
+    "stars": 5,
+    "comment": "Good"
   }
 ]
